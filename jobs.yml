@@ -1,0 +1,35 @@
+2025-04-05T21:41:52.0769738Z Current runner version: '2.323.0'
+2025-04-05T21:41:52.0797879Z ##[group]Operating System
+2025-04-05T21:41:52.0798682Z Ubuntu
+2025-04-05T21:41:52.0799139Z 24.04.2
+2025-04-05T21:41:52.0799724Z LTS
+2025-04-05T21:41:52.0800405Z ##[endgroup]
+2025-04-05T21:41:52.0801326Z ##[group]Runner Image
+2025-04-05T21:41:52.0802236Z Image: ubuntu-24.04
+2025-04-05T21:41:52.0803058Z Version: 20250323.1.0
+2025-04-05T21:41:52.0804264Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250323.1/images/ubuntu/Ubuntu2404-Readme.md
+2025-04-05T21:41:52.0805942Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250323.1
+2025-04-05T21:41:52.0806870Z ##[endgroup]
+2025-04-05T21:41:52.0807349Z ##[group]Runner Image Provisioner
+2025-04-05T21:41:52.0807980Z 2.0.422.1
+2025-04-05T21:41:52.0808428Z ##[endgroup]
+2025-04-05T21:41:52.0809474Z ##[group]GITHUB_TOKEN Permissions
+2025-04-05T21:41:52.0811614Z Contents: read
+2025-04-05T21:41:52.0812205Z Metadata: read
+2025-04-05T21:41:52.0813036Z Pages: write
+2025-04-05T21:41:52.0813616Z ##[endgroup]
+2025-04-05T21:41:52.0816009Z Secret source: Actions
+2025-04-05T21:41:52.0817528Z Prepare workflow directory
+2025-04-05T21:41:52.1149902Z Prepare all required actions
+2025-04-05T21:41:52.1246241Z Complete job name: report-build-status
+2025-04-05T21:41:52.7224634Z ##[group]Run gh api -X POST "repos/$GITHUB_REPOSITORY/pages/telemetry" \
+2025-04-05T21:41:52.7226067Z [36;1mgh api -X POST "repos/$GITHUB_REPOSITORY/pages/telemetry" \[0m
+2025-04-05T21:41:52.7226925Z [36;1m  -F github_run_id="$GITHUB_RUN_ID" \[0m
+2025-04-05T21:41:52.7227612Z [36;1m  -F conclusion="$CONCLUSION"[0m
+2025-04-05T21:41:52.7512476Z shell: /usr/bin/bash -e {0}
+2025-04-05T21:41:52.7513379Z env:
+2025-04-05T21:41:52.7514321Z   GITHUB_TOKEN: ***
+2025-04-05T21:41:52.7514840Z   CONCLUSION: success
+2025-04-05T21:41:52.7515747Z ##[endgroup]
+2025-04-05T21:41:53.0659460Z {}
+2025-04-05T21:41:53.0763464Z Cleaning up orphan processes
